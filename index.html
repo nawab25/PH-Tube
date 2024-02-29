@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PH Tube</title>
+    <!-- daisy ui and tailwind  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="px-5 lg:px-20 mx-auto">
+    <header>
+        <!-- bavbar  -->
+        <div class="flex items-center justify-between py-5 border-b-2">
+            <div>
+                <button class="btn">PH-Tube</button>
+            </div>
+            <div>
+                <button class="btn bg-white">Sort By View</button>
+            </div>
+            <div>
+                <button class="btn bg-[tomato] text-white">Blog</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="flex justify-center mt-6">
+            <div id="btn-field" class="grid grid-cols-4 md:grid-cols-4 gap-4 justify-center items-center">
+
+            </div>
+        </div>
+
+        <div id="video-field"
+            class="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-between items-center gap-9">
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
