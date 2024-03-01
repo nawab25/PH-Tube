@@ -19,7 +19,7 @@
                 <button class="btn">PH-Tube</button>
             </div>
             <div>
-                <button class="btn bg-white">Sort By View</button>
+                <button id="sort-btn" class="btn bg-white">Sort By View</button>
             </div>
             <div>
                 <button class="btn bg-[tomato] text-white">Blog</button>
@@ -27,12 +27,18 @@
         </div>
     </header>
     <main>
+        <!-- button field  -->
         <div class="flex justify-center mt-6">
             <div id="btn-field" class="grid grid-cols-4 md:grid-cols-4 gap-4 justify-center items-center">
 
             </div>
         </div>
+        <!-- no product found img  -->
+        <div id="noProduct-img" class="flex justify-center items-center mt-28 hidden">
+            <img src="./img/product.png" alt="">
+        </div>
 
+        <!-- video field  -->
         <div id="video-field"
             class="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-between items-center gap-9">
         </div>
