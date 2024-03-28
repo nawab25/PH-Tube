@@ -30,7 +30,7 @@ sortBtn.addEventListener('click', () => {
   sortByView = true;
   fetchDataByCategory(selectedId, sortByView);
 })
-//get vido making resources
+//get video making resources
 const fetchDataByCategory = async (categoryId, sortByView) => {
   selectedId = categoryId;
   const res = await fetch(`https://openapi.programming-hero.com/api/videos/category/${categoryId}`);
